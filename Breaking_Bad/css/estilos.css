@@ -1,0 +1,31 @@
+p{
+	width: 80%;
+	text-align: justify;
+}
+
+@media screen and (max-width: 1800px) and (min-width: 992px){
+	body{
+		background: #5090BD;
+	}
+}
+
+@media screen and (max-width: 991px) and (min-width: 700px){
+	body{
+		background: #2DAD60;
+		color: #fff;
+	}
+}
+
+@media screen and (max-width: 699px) and (min-width: 300px){
+	body{
+		background: #D2831C;
+		color: #fff;
+	}
+}
+
+@media screen and (max-width: 299px) and (min-width: 0px){
+	body{
+		background: #73D035;
+		color: #fff;
+	}
+}
